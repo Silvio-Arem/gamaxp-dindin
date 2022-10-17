@@ -1,0 +1,77 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__imagem{
+    width: 75%;
+}
+
+.banner__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__titulo{
+    color: var(--cor-secundaria);
+    font-weight: 700;    
+    font-size: 2rem; /* 3.75rem; */
+    text-align: center;
+}
+
+.banner__texto{
+    color: var(--cor-texto-cinza);   
+    font-size: 2rem; /* 3.75rem; */
+    text-align: center;
+    font-size: 1rem /* 1.688rem; */;
+    margin: 15px 0 25px;
+}
+
+.banner__link{
+    border: 1px solid var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+
+.cursos .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+
+.cursos__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.cursos__imagem{
+    width: 100%; /* 288px */    
+}
+
+.cursos__titulo{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.cursos__texto{
+    font-weight: 300;
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 25px;
+}
+
+.cursos__link{
+    border: 1px solid var(--cor-secundaria);
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
