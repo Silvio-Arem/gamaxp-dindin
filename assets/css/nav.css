@@ -1,9 +1,14 @@
+/* header{
+    position: sticky;
+    top: 0;
+} */
+
 .nav-cabecalho{
     background-color: var(--cor-primaria);
-    
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    padding: 25px;
 }
 
 .nav-cabecalho__item{
@@ -17,4 +22,12 @@
     text-transform: uppercase;
     font-size: 1.25rem;
     padding: 20px;
+}
+
+@media screen and (min-width: 768px){
+    .nav-cabecalho{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 }

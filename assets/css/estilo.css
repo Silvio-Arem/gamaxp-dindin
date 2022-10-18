@@ -4,7 +4,7 @@
 :root{
     --cor-primaria: #2E948A;
     --cor-secundaria: #FF4081;
-    --cor-imagem-vazia: #E5E5E5;
+    --cor-imagem-vazia: #C4C4C4;
     --cor-texto: #000;
     --cor-texto-cinza: #555;
     --cor-menu-link: #fff;
@@ -39,6 +39,7 @@ section{
 
 @media screen and (min-width: 1440px) {
     .container{
+        padding: 0 156px;
         max-width: 1440px;
     }
 }
