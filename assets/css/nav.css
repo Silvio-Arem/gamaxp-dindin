@@ -1,14 +1,14 @@
-/* header{
-    position: sticky;
-    top: 0;
-} */
-
-.nav-cabecalho{
+.cabecalho{
     background-color: var(--cor-primaria);
+    padding: 10px 0;
+    /* position: sticky;
+    top: 0; */
+}
+
+.cabecalho .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 25px;
 }
 
 .nav-cabecalho__item{
@@ -20,12 +20,12 @@
     color: var(--cor-menu-link);
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding: 20px;
 }
 
 @media screen and (min-width: 768px){
-    .nav-cabecalho{
+    .cabecalho .container{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;

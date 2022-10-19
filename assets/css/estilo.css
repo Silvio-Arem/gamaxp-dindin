@@ -1,5 +1,6 @@
 @import url('./nav.css');
 @import url('./index.css');
+@import url('./rodape.css');
 
 :root{
     --cor-primaria: #2E948A;
@@ -30,7 +31,8 @@ section{
 }
 
 .container{
-    padding: 5vh;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .secao--cinza{
@@ -39,7 +41,6 @@ section{
 
 @media screen and (min-width: 1440px) {
     .container{
-        padding: 0 156px;
         max-width: 1440px;
     }
 }
