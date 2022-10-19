@@ -21,7 +21,7 @@
     font-weight: 700;    
     font-size: 2rem; /* 3.75rem; */
     text-align: center;
-    margin: 25px 0;
+    margin: 25px 0; 
 }
 
 .pagina-contato__formulario{
@@ -51,6 +51,8 @@
     left: 50%;
     transform: translate(-50%);
 }
+
+
 
 @media screen and (min-width: 768px){
     .pagina-contato__submit{
