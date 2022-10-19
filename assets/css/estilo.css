@@ -1,5 +1,6 @@
 @import url('./nav.css');
 @import url('./index.css');
+@import url('./contato.css');
 @import url('./rodape.css');
 
 :root{
@@ -26,7 +27,7 @@ body{
     position: relative;
 }
 
-section{
+section, main{
     padding: 50px 0;
 }
 
