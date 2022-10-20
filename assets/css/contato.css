@@ -25,7 +25,9 @@
 }
 
 .pagina-contato__formulario{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     gap: 15px;
 }
@@ -38,46 +40,29 @@
     border: 1px solid gray;
 }
 
-.pagina-contato__submit{
-    display: block;
-    width: 108px;
-    height: 45px;
-    border: 1px solid var(--cor-secundaria);
-    color: var(--cor-menu-link);
-    background-color: var(--cor-secundaria);
-    padding: 5px 15px;
-    border-radius: 25px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-
-
 @media screen and (min-width: 768px){
-    .pagina-contato__submit{
-        width: 150px;
+    .pagina-contato__imagem{
+        max-width: 444px;
     }
 }
 
 @media screen and (min-width: 1024px){
     .pagina-contato{
-        min-height: calc(100vh - 100px - 170px);
+        display: flex;
+        min-height: calc(100vh - 100px - 120px);
     }
 
     .pagina-contato .container{
         display: flex;
         flex-direction: row-reverse;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         gap: 150px;
     }
 
-
-    .pagina-contato__submit{
-        left: 0;
-        transform: translate(0);
-    }  
+    .pagina-contato__formulario{
+        align-items: flex-start;
+    }
 
     .pagina-contato__conteudo{
         display: block;

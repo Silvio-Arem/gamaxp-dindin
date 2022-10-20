@@ -28,13 +28,6 @@
     margin: 15px 0 25px;
 }
 
-.banner__link{
-    border: 1px solid var(--cor-secundaria);
-    color: var(--cor-secundaria);
-    padding: 5px 15px;
-    border-radius: 25px;
-}
-
 .cursos .container{
     display: grid;
     grid-template-columns: 1fr;
@@ -69,14 +62,6 @@
     margin-bottom: 25px;
 }
 
-.cursos__link{
-    border: 1px solid var(--cor-secundaria);
-    background-color: var(--cor-secundaria);
-    color: #fff;
-    padding: 5px 15px;
-    border-radius: 25px;
-}
-
 .depoimentos__itens{
     display: grid;
     gap: 50px;
@@ -107,12 +92,18 @@
     font-size: 1.125rem;
 }
 
+.blog .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
 .blog__titulo{
     color: var(--cor-primaria);
     text-transform: uppercase;
     font-size: 1.5rem; /* 3,125 */
     font-weight: 700;
-    margin-bottom: 50px;
 }
 
 .blog__posts{
@@ -134,18 +125,6 @@
     margin: 15px 0 5px;
 }
 
-.blog__link{
-    display: inline-block;
-    margin-top: 25px;
-    border: 1px solid var(--cor-secundaria);
-    color: var(--cor-secundaria);
-    padding: 5px 15px;
-    border-radius: 25px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-}
-
 
 @media screen and (min-width: 768px){
     .banner__imagem{
@@ -157,14 +136,6 @@
     }
 
     .banner__texto{
-        font-size: 1.688rem;
-    }
-
-    .banner__link{
-        display: block;
-        width: 289px;
-        text-align: center;
-        padding: 10px 0;
         font-size: 1.688rem;
     }
 
@@ -197,15 +168,6 @@
 
     .blog__imagem-vazia{
         height: 135px;
-    }
-
-    .blog__link{
-        display: block;
-        width: 225px;
-        text-align: center;
-        padding: 10px 0;
-        font-size: 1.25rem;
-        margin-top: 75px;
     }
 }
 
@@ -241,14 +203,6 @@
 
     .cursos__titulo{
         font-size: 1.563rem;
-    }
-
-    .cursos__link{
-        display: block;
-        width: 233px;
-        text-align: center;
-        padding: 10px 0;
-        font-size: 1.25rem;
     }
 
     .depoimentos__titulo{

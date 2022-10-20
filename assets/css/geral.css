@@ -35,3 +35,32 @@ body{
 .secao--cinza{
     background-color: var(--cor-fundo-cinza);
 }
+
+
+.botao{
+    border-radius: 62px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid transparent;
+    font-size: 1.5rem;
+    color: var(--cor-menu-link);
+}
+
+.botao--primario{
+    background-color: var(--cor-primaria);
+}
+
+.botao--secundario{
+    background-color: var(--cor-secundaria);
+}
+
+.botao--borda-secundaria{
+    border-color: var(--cor-secundaria);
+    color: var(--cor-secundaria);
+}
+
+.botao--borda-branca{
+    border-color: var(--cor-menu-link);
+}

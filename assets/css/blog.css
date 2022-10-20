@@ -86,11 +86,6 @@
     .pagina-blog__post-texto{
         text-align: left;
     }
-
-    .pagina-blog .container{
-        
-    }
-
 }
 
 @media screen and (min-width: 1024px){
