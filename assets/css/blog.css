@@ -1,0 +1,148 @@
+.pagina-blog .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.pagina-blog__imagem{
+    width: 75%;
+}
+
+.pagina-blog__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagina-blog__titulo{
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+    font-weight: 700;    
+    font-size: 2rem; /* 3.75rem; */
+    text-align: center;
+}
+
+.pagina-blog__texto{
+    color: var(--cor-texto-cinza);   
+    text-align: center;
+    font-size: 1rem /* 1.688rem; */;
+    margin: 15px 0 25px;
+}
+
+.pagina-blog__posts{
+    display: grid;
+    align-items: center;
+    gap: 50px;
+}
+
+.pagina-blog__imagem-vazia{
+    background-color: var(--cor-imagem-vazia);
+    width: 100%;
+    height: 193px;
+}
+
+.pagina-blog__post-titulo{
+    color: var(--cor-secundaria);
+    font-weight: 700; 
+    font-size: 1.4rem ;/* 1.688rem */
+    margin: 15px 0 5px;
+    text-align: center;
+}
+
+.pagina-blog__post-texto{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px){
+    .pagina-blog__imagem{
+        width: 50%;
+    }
+
+    .pagina-blog__titulo{
+        font-size: 2.93rem;
+    }
+
+    .pagina-blog__texto{
+        font-size: 1.688rem;
+    }
+    .pagina-blog__posts{
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .pagina-blog__titulo{
+        font-size: 2.5rem;
+    }
+
+    .pagina-blog__imagem-vazia{
+        height: 135px;
+    }
+
+    .pagina-blog__post-titulo{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    .pagina-blog__post-texto{
+        text-align: left;
+    }
+
+    .pagina-blog .container{
+        padding: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .pagina-blog .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items:center;
+        justify-content: space-evenly;
+        padding: 40px;
+    }
+
+    .pagina-blog__conteudo{
+        display: block;
+    }
+
+    .pagina-blog__titulo{
+        text-transform: uppercase;
+        font-size: 2.93;
+        text-align: left;
+        width: 450px;
+        margin-bottom: 60px;
+    }
+
+    .pagina-blog__texto{
+        text-align: left;
+        width: 461px;
+    }
+    .pagina-blog__imagem{
+        width: 405px;
+        height: 405px;
+    }
+
+    .pagina-blog__posts{
+        grid-column-gap: 100px;
+    }
+
+    .pagina-blog__imagem-vazia{
+        height: 250px;
+        width: 500px;
+    }
+
+    .pagina-blog__post-titulo{
+        text-align: left;
+        font-size: 1.87rem;
+    }
+
+    .pagina-blog__post-texto{
+        text-align: left;
+        width: 500px;
+        font-size: 1.06rem;
+    }
+
+}
+
