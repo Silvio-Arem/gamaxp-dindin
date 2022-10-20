@@ -1,0 +1,37 @@
+:root{
+    --cor-primaria: #2E948A;
+    --cor-secundaria: #FF4081;
+    --cor-imagem-vazia: #C4C4C4;
+    --cor-texto: #000;
+    --cor-texto-cinza: #555;
+    --cor-menu-link: #fff;
+    --cor-fundo-cinza: #F6F6F6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    position: relative;
+}
+
+section, main{
+    padding: 50px 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.secao--cinza{
+    background-color: var(--cor-fundo-cinza);
+}

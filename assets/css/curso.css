@@ -1,0 +1,95 @@
+.pagina-curso__banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagina-curso__banner-imagem{
+    width: 50%;
+}
+
+.pagina-curso__banner-conteudo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.pagina-curso__banner-titulo{
+    color: var(--cor-secundaria);
+    font-weight: 700;    
+    font-size: 2rem; /* 3.75rem; */
+    text-align: center;
+}
+
+.pagina-curso__cursos .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.pagina_curso__cursos-divisor{
+    display: block;
+    width: 100%;
+}
+
+.pagina-curso__curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.pagina-curso__curso-conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.pagina-curso__curso-titulo{
+    color: var(--cor-secundaria);
+    font-weight: 700;    
+    font-size: 2rem; /* 3.75rem; */
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px){
+    .pagina-curso__banner .container{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .pagina-curso__banner-imagem{
+        max-width: 380px;
+    }
+
+    .pagina-curso__banner-titulo{
+        text-align: left;
+        max-width: 375px;
+    }
+
+    .pagina-curso__banner-conteudo{
+        text-align: left;
+        max-width: 375px;
+    }
+
+    .pagina-curso__curso{
+        flex-direction: row;
+    }
+
+    .pagina-curso__curso-video{
+        width: 50%;
+        height: 300px;
+    }
+
+    .pagina-curso__curso-titulo{
+        text-align: left;
+    }
+
+    .pagina-curso__curso-conteudo{
+        text-align: left;
+    }
+}
