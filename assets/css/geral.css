@@ -22,7 +22,7 @@ body{
     position: relative;
 }
 
-section, main{
+.secao{
     padding: 50px 0;
 }
 

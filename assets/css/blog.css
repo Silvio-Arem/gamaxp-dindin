@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
 }
 
 .pagina-blog__imagem{
@@ -89,7 +88,7 @@
     }
 
     .pagina-blog .container{
-        padding: 40px;
+        
     }
 
 }
@@ -100,7 +99,6 @@
         flex-direction: row-reverse;
         align-items:center;
         justify-content: space-evenly;
-        padding: 40px;
     }
 
     .pagina-blog__conteudo{
