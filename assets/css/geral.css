@@ -51,6 +51,7 @@ a{
     font-size: 1.5rem;
     color: var(--cor-menu-link);
     transition: background-color .5s;
+    cursor: pointer;
 }
 
 .botao--primario{
