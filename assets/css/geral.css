@@ -22,6 +22,10 @@ body{
     position: relative;
 }
 
+a{
+    color: var(--cor-texto);
+}
+
 .secao{
     padding: 50px 0;
 }
