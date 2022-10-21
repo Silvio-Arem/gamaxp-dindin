@@ -50,14 +50,27 @@ a{
     border: 1px solid transparent;
     font-size: 1.5rem;
     color: var(--cor-menu-link);
+    transition: background-color .5s;
 }
 
 .botao--primario{
     background-color: var(--cor-primaria);
+    border: 3px solid transparent;
+    transition: border .25s;
+}
+
+.botao--primario:hover{
+    border: 3px solid var(--cor-secundaria);
 }
 
 .botao--secundario{
     background-color: var(--cor-secundaria);
+    border: 3px solid transparent;
+    transition: border .25s;
+}
+
+.botao--secundario:hover{
+    border: 3px solid var(--cor-primaria);
 }
 
 .botao--borda-secundaria{
@@ -65,6 +78,16 @@ a{
     color: var(--cor-secundaria);
 }
 
+.botao--borda-secundaria:hover{
+    color: var(--cor-menu-link);
+    background-color: var(--cor-secundaria);
+}
+
 .botao--borda-branca{
     border-color: var(--cor-menu-link);
+}
+
+.botao--borda-branca:hover{
+    color: var(--cor-primaria);
+    background-color: var(--cor-menu-link);
 }
