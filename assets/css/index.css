@@ -28,40 +28,6 @@
     margin: 15px 0 25px;
 }
 
-.cursos .container{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
-    justify-items: center;
-}
-
-.cursos__item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 400px;
-}
-
-.cursos__imagem{
-    width: 75% /* 288px */    
-}
-
-.cursos__titulo{
-    color: var(--cor-secundaria);
-    font-weight: 700;
-    font-size: 1.25rem;
-    text-align: center;
-    margin: 25px 0;
-}
-
-.cursos__texto{
-    font-weight: 300;
-    text-align: center;
-    font-size: .9rem;
-    margin-bottom: 25px;
-}
-
 .depoimentos__itens{
     display: grid;
     gap: 50px;
@@ -139,16 +105,6 @@
         font-size: 1.688rem;
     }
 
-    .cursos .container{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 50px;
-    }
-
-    .cursos__imagem{
-        height: 191px;
-    }
-
     .depoimentos__itens{
         display: grid;
         grid-template-columns: 1fr 1fr;        
@@ -199,10 +155,6 @@
 
     .cursos__imagem{
         height: 270px;
-    }
-
-    .cursos__titulo{
-        font-size: 1.563rem;
     }
 
     .depoimentos__titulo{

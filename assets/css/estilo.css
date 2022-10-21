@@ -1,5 +1,8 @@
 @import url('./geral.css');
 @import url('./nav.css');
+
+@import url('./secao-cursos.css');
+
 @import url('./index.css');
 @import url('./contato.css');
 @import url('./cursos.css');
